@@ -17,7 +17,7 @@ export default function GitHubMain() {
 
   const [allData, setAllData] = useState({});
   const [dataFillCheck, setDataFillCheck] = useState(false);
-  const [githubUser, setGithubUser] = useState("");
+  const [githubUser, setGithubUser] = useState("name");
   const [githubURL, setGithubURL] = useState("https://api.github.com/users/afarooq");
 
   const getGiHubUserWithAxios = async () => {
