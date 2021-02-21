@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import React, { useState, useEffect } from "react";
+import React, {useEffect } from "react";
+import { useState } from "react";
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import axios from "axios";
