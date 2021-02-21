@@ -23,10 +23,10 @@ import styles from './app.module.css';
 
 export default function GitHubSelected(props) {
 
-  if (props.objectData.name == null) {
-    props.objectData.name = "null";
+  if (props.objectData == null) {
+    props.objectData = {name:"null"};
   }
-  
+
   const [expanded, setExpanded] = useState(false);
   const [favorites, setFavorites] = useState([]);
   const [open, setOpen] = useState(false);
