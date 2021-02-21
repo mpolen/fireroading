@@ -23,8 +23,10 @@ import styles from './app.module.css';
 
 export default function GitHubSelected(props) {
 
-  (props.objectData ? props.objectData : props.objectData = {name: "Null", id : 00000, bio: "Null"})
-
+  if (props.objectData.name == null) {
+    props.objectData.name = "null";
+  }
+  
   const [expanded, setExpanded] = useState(false);
   const [favorites, setFavorites] = useState([]);
   const [open, setOpen] = useState(false);
@@ -50,6 +52,7 @@ export default function GitHubSelected(props) {
 
 return (
 
+  
   <div>
             <Head>
                 <title>GitHub User Info!</title>
