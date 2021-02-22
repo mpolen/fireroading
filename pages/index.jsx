@@ -19,7 +19,7 @@ export default function App() {
     <div>
 
       <Head>
-        <title>Dual Land</title>
+        <title>Numbers Land</title>
       </Head>
 
       <main>
@@ -31,15 +31,15 @@ export default function App() {
 
           avatar={
             <Avatar className = {styles.cardLight} aria-label="">
-              DL
+              NL
             </Avatar>
           } 
 
           action={
-            <IconButton aria-label="Dual Land">
+            <IconButton aria-label="Numbers Land">
             </IconButton>
           }
-          title="Dual Land"
+          title="Numbers Land"
           subheader="2021"
         ></CardHeader>
 
@@ -47,11 +47,11 @@ export default function App() {
           <CardContent>
 
             <Typography className = {styles.cardLarge} variant="h1" component="h2" color="blue" gutterBottom>
-                <center>Welcome to Dual Land</center>        
+                <center>Welcome to Numbers Land</center>        
             </Typography>
 
             <Typography className = {styles.cardMain} variant="h4" component="h2" color="blue" gutterBottom>
-                <center>This is a simple interface for finding more information about a GitHub User via GitHub Land and finding more information about random integers via Numbers Land!</center>        
+                <center>This is a simple interface for finding more information about random integers via Numbers Land!</center>        
             </Typography>
 
           </CardContent>
@@ -59,12 +59,11 @@ export default function App() {
 
 
         <CardActions style={{justifyContent: 'center'}}>
-          <Link href={{ pathname: '/githubMain'}}>
-            <Button variant="contained" color="primary">GitHub Land</Button>
-          </Link>
+
           <Link href={{ pathname: '/numbersMain'}}>
             <Button variant="contained" color="primary">Numbers Land</Button>
           </Link>
+
       </CardActions>
 
     </Card>
