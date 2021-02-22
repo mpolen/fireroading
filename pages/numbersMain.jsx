@@ -31,10 +31,10 @@ export default function NumbersMain() {
     numbersWithAxios();
   }, [numbersURL]);
 
-function onclick(value){
-    setselectedData(allData[value]);
-    setNumberSelected(value);
-}
+  function onclick(value){
+      setselectedData(allData[value]);
+      setNumberSelected(value);
+  }
 
     if (selectedData.length != 0) {
         return (
