@@ -38,6 +38,7 @@ export default function Main() {
                   <center>WBUR-FM</center>        
               </Typography>
 
+              <center><img src = "https://upload.wikimedia.org/wikipedia/en/f/fc/90.9_WBUR_Logo.png"></img></center>
 
               <Typography variant="h7" component="h2" color="blue" gutterBottom>
                   <center>The WBUR-FM Radio Station (90.9 MHz Frequency) is also branded as 90.9 WBUR. It is a public radio station located in Boston, MA. It is a large station as compared to other NPR member stations in the City of Boston. It is largely a station based on a news/talk format as many programs revolve around daily highlights, moments, movements, cultural shifts, and general news/topics via many different programs hosted by many individuals. </center>        
@@ -68,7 +69,15 @@ export default function Main() {
 
         <p></p>
 
-        <center><p>The phenomenological approach to destructing the WBUR-FM Radio Station Channel along with the knowledge of the public record of the station yields a decent picture as to the wide range of programs and services offered. These two approaches come together nicely as the contextualization of the station fits will with some of the information easily accessible to anyone, thus painting a picture of the impact of this station in informing individuals and cultivating a civil discourse and information distribution. The investigation overall has revealed that the impact of the physical radio landscape of the United States is here to stay as people do like the authentic and reliable nature of old media reinvigorated in the modern day. The station also connects many localities while also being connected via a network all over the country, similar to the Internet network. Future upgrades will bring this traditionally seen as more correlated with physical location into more of a media node within a large network of other nodes, thus establishing a really valuable set of connections that will be hard to reform or eliminate.  </p></center>
+
+        <center>
+        <h1>Listen to WBUR-FM Live!</h1>
+          <audio controls autoplay>
+            <source src="https://icecast-stream.wbur.org/wbur" type="audio/mpeg"></source>
+          </audio>
+        </center>
+
+        <center><h4>The phenomenological approach to destructing the WBUR-FM Radio Station Channel along with the knowledge of the public record of the station yields a decent picture as to the wide range of programs and services offered. These two approaches come together nicely as the contextualization of the station fits will with some of the information easily accessible to anyone, thus painting a picture of the impact of this station in informing individuals and cultivating a civil discourse and information distribution. The investigation overall has revealed that the impact of the physical radio landscape of the United States is here to stay as people do like the authentic and reliable nature of old media reinvigorated in the modern day. The station also connects many localities while also being connected via a network all over the country, similar to the Internet network. Future upgrades will bring this traditionally seen as more correlated with physical location into more of a media node within a large network of other nodes, thus establishing a really valuable set of connections that will be hard to reform or eliminate.</h4></center>
 
 
       </div>

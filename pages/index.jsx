@@ -55,7 +55,7 @@ export default function App() {
 
           </CardContent>
 
-
+          <center><img width="500" height="300" src = "https://d279m997dpfwgl.cloudfront.net/wp/2018/09/linderpix-1197-1000x666.jpg"></img></center>
         <CardActions style={{justifyContent: 'center'}}>
 
           <Link href={{ pathname: '/Main'}}>
