@@ -38,8 +38,14 @@ export default function Phenomenological(props) {
                   <Typography className = {styles.cardLarge} variant="h3" component="h2" color="blue" gutterBottom>
                       <center>Phenomenological</center>        
                   </Typography>
-
-
+        <center>
+        <h2>Listen to WBUR-FM Live!</h2>
+          <audio controls autoplay>
+            <source src="https://icecast-stream.wbur.org/wbur" type="audio/mpeg"></source>
+          </audio>
+        </center>
+        <p></p>
+        <p></p>
             <Typography className = {styles.cardLarge} variant="h5" component="h2" color="blue" gutterBottom>
                       <center>Sensual Contextualization</center>        
            </Typography>
@@ -54,6 +60,10 @@ export default function Phenomenological(props) {
                      
 
                         <p>The clearest observation about the WBUR-FM Radio is the physicality of the building and the infrastructure. This makes it more real and authentic to an outside observer seeking to observe. The physicality is similar to the physicality of the computer or another device, perhaps a Memex in the future, where the relied usage of these physical tools have made their physicality a back-thought rather than a recurring thought. In other words, people often are more used to the media applications on their phones versus the actual physical phone itself. </p>
+                     
+                        <iframe src="https://www.google.com/maps/embed?pb=!4v1615259259583!6m8!1m7!1sbvzUgiJXp170v5y1jEe6gQ!2m2!1d42.35115923991627!2d-71.11553630558372!3f180.16113299737094!4f-4.0723957507580195!5f0.7820865974627469" width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
+                        <p></p>
+                        <img src = "https://media3.giphy.com/media/m6cGnWkKKRRrG/200.gif"></img>
                       </center>        
 
             <Typography className = {styles.cardLarge} variant="h5" component="h2" color="blue" gutterBottom>
@@ -66,12 +76,14 @@ export default function Phenomenological(props) {
 
 <p>The lack of accessibility into the station’s details is largely intentional as providing all details on location accessible to the general public will further create more information overload and prevent the proper contextualization of the radio station. With so much information, people might choose to block incoming data as the idea of “out of file, out of mind” is clearly in play here. They may also seemingly just miss the location and be uncurious as some people might be too consumed with other media formats, perhaps more familiar ones through names and clearer recognition.</p>
 
+<img width="500" height="300" src = "https://d279m997dpfwgl.cloudfront.net/wp/2020/10/microphone-1000x593-1000x593.jpg"></img>
           <Typography className = {styles.cardLarge} variant="h5" component="h2" color="blue" gutterBottom>
                       <center>Larger Space Contextualization</center>        
            </Typography>
 
         <p>The location of the WBUR-FM Radio Station Channel is 890 Commonwealth Avenue, Boston, MA 02215. The larger space surrounding the media infrastructure includes the campus of Boston University, the streets of Commonwealth Avenue, Boston University Bridge, Massachusetts Turnpike, and St.Paul Street, and the general regions of Back Bay West, Cottage Farm Historic District, and North Brookline. The larger space of Boston University fits in nicely as the owner of the WBUR-FM is Boston University and the City of License is Boston. The surrounding neighborhood is an ideal place for the original point of the station in order to ensure the greatest reach in the most efficient manner for a media infrastructure. This also fits in as the closer to the media infrastructure, the more opportunities there are to be able to modify and sustain the different purposes of the radio station from the home base of Boston University, which itself is a large space within an urban setting. </p>
-          
+                     
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.62413074691!2d-71.11771638468434!3d42.3505363791875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e37a1d2e78121f%3A0x367b8b1490a23b8a!2s890%20Commonwealth%20Avenue%2C%20Boston%2C%20MA%2002215!5e0!3m2!1sen!2sus!4v1615259387660!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
            </center>
 
 
