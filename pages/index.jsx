@@ -19,7 +19,7 @@ export default function App() {
     <div>
 
       <Head>
-        <title>Numbers Land</title>
+        <title> Media Infrastructure</title>
       </Head>
 
       <main>
@@ -31,37 +31,35 @@ export default function App() {
 
           avatar={
             <Avatar className = {styles.cardLight} aria-label="">
-              NL
+              MI
             </Avatar>
           } 
 
           action={
-            <IconButton aria-label="Numbers Land">
+            <IconButton aria-label="Media Infrastructure">
             </IconButton>
           }
-          title="Numbers Land"
+          title="Media Infrastructure"
           subheader="2021"
         ></CardHeader>
 
-        <CardActionArea>
           <CardContent>
 
             <Typography className = {styles.cardLarge} variant="h1" component="h2" color="blue" gutterBottom>
-                <center>Welcome to Numbers Land</center>        
+                <center>Media Infrastructure: WBUR-FM</center>        
             </Typography>
 
             <Typography className = {styles.cardMain} variant="h4" component="h2" color="blue" gutterBottom>
-                <center>This is a simple interface for finding more information about random integers via Numbers Land!</center>        
+                <center>This is a simple interface for finding observations and content on the media infrastracture of WBUR-FM Radio Station!</center>        
             </Typography>
 
           </CardContent>
-        </CardActionArea>
 
 
         <CardActions style={{justifyContent: 'center'}}>
 
-          <Link href={{ pathname: '/numbersMain'}}>
-            <Button variant="contained" color="primary">Numbers Land</Button>
+          <Link href={{ pathname: '/Main'}}>
+            <Button variant="contained" color="primary">Click To Get Started</Button>
           </Link>
 
       </CardActions>
