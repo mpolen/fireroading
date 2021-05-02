@@ -19,7 +19,7 @@ export default function App() {
     <div>
 
       <Head>
-        <title> Media Infrastructure</title>
+        <title> Media Phenomenon</title>
       </Head>
 
       <main>
