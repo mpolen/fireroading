@@ -19,7 +19,9 @@ export default function CaseStudy(props) {
  }
 
     return (
-        <div>
+        <div style={{
+        backgroundColor: 'lightgrey',
+      }} >
             <Head>
                 <title>Case study</title>
             </Head>
@@ -94,13 +96,16 @@ export default function CaseStudy(props) {
 </tr>
 </tbody>
 </table>
-       </center>
+<img width="500"  src = "https://collegeinfogeek.com/wp-content/uploads/2012/03/How-to-Build-a-Personal-Website-in-2020.jpg"></img>
+<br></br>
+<br></br>
+
+            </center>
 
                  <Typography className = {styles.cardLarge} variant="h5" component="h2" color="blue" gutterBottom>
                       <center>Features
-</center>        
+            </center>        
            </Typography>
-
 <table >
 <tbody>
 <tr >
@@ -431,6 +436,10 @@ export default function CaseStudy(props) {
 </tbody>
 </table>
 
+<center>
+
+<img width="500"  src = "https://www.linkedinsights.com/wp-content/uploads/2019/04/Stunningly-Student-04.png"></img>
+</center>
 <table >
 <tbody>
 <tr >
@@ -597,7 +606,6 @@ export default function CaseStudy(props) {
 </tr>
 <tr >
 <td >
-
 <table>
 <tbody>
 <tr>
@@ -661,13 +669,31 @@ export default function CaseStudy(props) {
 </tbody>
 </table>
 
+
+
+                  <Typography style = {{color : "blue"}}variant="h5" component="h7" gutterBottom>
+                      <center>Personal Websites</center>        
+                  </Typography>
+<br></br>
+<center>
+<iframe width="600" height="400" src="https://kennethfriedman.org/"></iframe>
+<iframe width="600" height="400" src="https://www.drizzlerock.com/"></iframe>
+<iframe width="600" height="400" src="https://www.willlangford.me/"></iframe>
+</center>
+
+
+<br></br>
 <br></br>
 <br></br>
 
+
 <center>
 <div style = {{color : "red"}}><strong>
-The importance of personal websites for this unpredictable job market can be seen here. Let's dig deeper into a case study involving how a graduating college student can build an online identiy via a personal website as opposed to other conventional interfaces like LinkedIn.
-</strong>
+Personal websites are making strides in maintaining a digital identity for individuals, especially those about to enter the workforce. The increasing relevance and influence of personal websites is here to stay.</strong>
+</div>
+<br></br>
+<div style = {{color : "red"}}><strong>
+Check out the Bibliography to look at various sources mentioned throughout this webpage.</strong>
 </div>
 
 <br></br>
@@ -675,7 +701,6 @@ The importance of personal websites for this unpredictable job market can be see
                     <Button variant="contained" color="primary">Biblography</Button>
             </Link>
 </center>
-
         </div>
       )
   }

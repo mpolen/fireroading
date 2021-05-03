@@ -11,10 +11,20 @@
     color:lightblue;
   }
 
+  .body {
+    background-color: 'lightgrey'
+  }
   .numbers {
     color:maroon
   }
 
   .facts {
     color:brown
+  }
+
+  .quote {
+    margin: 0;
+    background: #eee;
+    padding: 1em;
+    border-radius: 1em;
   }

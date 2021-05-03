@@ -19,7 +19,9 @@ export default function Bibliography(props) {
  }
 
     return (
-        <div>
+        <div style={{
+        backgroundColor: 'lightgrey',
+      }} >
             <Head>
                 <title>Bibliography</title>
             </Head>
@@ -66,30 +68,6 @@ export default function Bibliography(props) {
     <br></br>
   <div class="csl-entry">thomasfrank. “The Essential Components of a Personal Website (Examples Included).” <i>College Info Geek</i>, 27 Mar. 2014, https://collegeinfogeek.com/essential-components-of-personal-websites/.</div>
 </div>
-            {/* <div class="csl-bib-body">
-            <p></p>
-            <div class="csl-entry"><i>About</i>. https://www.wbur.org/about. Accessed 9 Mar. 2021.</div>
-            <p></p>
-            <div class="csl-entry">Bush, Vannevar. <i>Memex Revisited</i>.</div>
-            <p></p>
-            <div class="csl-entry">“Home Page Top Stories.” <i>NPR.Org</i>, https://www.npr.org/. Accessed 9 Mar. 2021.</div>
-            <p></p>
-            <div class="csl-entry"><i>OUT OF FILE, OUT OF MIND – A Barthesian Analysis of Vismann</i>. https://blogs.brown.edu/elizabethfalkenberg/. Accessed 9 Mar. 2021.</div>
-            <p></p>
-            <div class="csl-entry">Parks, Lisa. <i>Earth Observation and Signal Territories</i>.</div>
-            <p></p>
-            <div class="csl-entry">“Public Radio International.” <i>Wikipedia</i>, 23 Feb. 2021. <i>Wikipedia</i>, https://en.wikipedia.org/w/index.php?title=Public_Radio_International&amp;oldid=1008536991.</div>
-            <p></p>
-            <div class="csl-entry">Vismann, Cornelia. <i>Out of File, Out of Mind</i>.</div>
-            <p></p>
-            <div class="csl-entry"><i>WBUR | College of Communication</i>. https://www.bu.edu/com/tag/wbur/. Accessed 9 Mar. 2021.</div>
-            <p></p>
-            <div class="csl-entry">“WBUR-FM.” <i>Wikipedia</i>, 3 Jan. 2021. <i>Wikipedia</i>, https://en.wikipedia.org/w/index.php?title=WBUR-FM&amp;oldid=998036237.</div>
-            <p></p>
-            <div class="csl-entry"><i>WBUR-FM - FM Station Profile - FCC Public Inspection Files</i>. https://publicfiles.fcc.gov/fm-profile/wbur-fm. Accessed 9 Mar. 2021.</div>
-            <p></p>
-            <div class="csl-entry"><i>WBUR-FM 90.9 MHz - Boston, MA</i>. https://radio-locator.com/info/WBUR-FM. Accessed 9 Mar. 2021.</div>
-            </div>     */}
            </Typography>
            </center>
 

@@ -31,7 +31,9 @@ export default function Main() {
 
           <div>
 
-          <Card variant="outlined">
+          <Card style={{
+        backgroundColor: 'lightgrey',
+      }} variant="outlined">
 
             <CardContent>
               <Typography className = {styles.cardLarge} variant="h1" component="h2" color="blue" gutterBottom>
@@ -67,22 +69,8 @@ We first look at the evolution of personal websites from the 1990s onwards as th
                     <Button variant="contained" color="primary">Evolution of Personal Websites</Button>
             </Link>
           <p></p>
-            {/* <Link href={{ pathname: '/JobMarket'}}>
-                    <Button variant="contained" color="primary">Job Market</Button>
-            </Link>
-            <p></p>
-            <Link href={{ pathname: '/CaseStudy'}}>
-                    <Button variant="contained" color="primary">Case Study</Button>
-            </Link>
-            <p></p>
-
-            <Link href={{ pathname: '/Bibliography'}}>
-                    <Button variant="contained" color="primary">Bibliography</Button>
-            </Link> */}
     <p></p>
      </center>
-
-
 
       </Card>
 

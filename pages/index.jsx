@@ -16,21 +16,22 @@ export default function App() {
 
   return (
     
-    <div>
+    <div className = {styles.body}>
 
       <Head>
         <title>Media Phenomenon</title>
       </Head>
 
-      <main>
+      <main className = {styles.body}>
         
-    <Card variant="outlined">
+    <Card style={{
+        backgroundColor: 'lightgrey',
+      }} variant="outlined">
 
           <CardHeader 
-          className = {styles.cardLight}
 
           avatar={
-            <Avatar className = {styles.cardLight} aria-label="">
+            <Avatar aria-label="">
               MP
             </Avatar>
           } 
