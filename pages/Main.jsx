@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import axios from "axios";
-import Phenomenological from './Phenomenological';
+import Evolution from './Evolution';
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardActionArea from '@material-ui/core/CardActionArea';
@@ -24,7 +24,7 @@ export default function Main() {
 
     <div>
       <Head>
-        <title>Media Infrastructure</title>
+        <title>Media Phenomenon</title>
       </Head>
 
       <main>
@@ -35,26 +35,37 @@ export default function Main() {
 
             <CardContent>
               <Typography className = {styles.cardLarge} variant="h1" component="h2" color="blue" gutterBottom>
-                  <center>WBUR-FM</center>        
+                  <center>Personal Websites</center>        
               </Typography>
 
-              <center><img src = "https://upload.wikimedia.org/wikipedia/en/f/fc/90.9_WBUR_Logo.png"></img></center>
-
-              <Typography variant="h7" component="h2" color="blue" gutterBottom>
-                  <center>The WBUR-FM Radio Station (90.9 MHz Frequency) is also branded as 90.9 WBUR. It is a public radio station located in Boston, MA. It is a large station as compared to other NPR member stations in the City of Boston. It is largely a station based on a news/talk format as many programs revolve around daily highlights, moments, movements, cultural shifts, and general news/topics via many different programs hosted by many individuals. </center>        
+              <Typography variant="h9" component="h4" color="blue" gutterBottom>
+With the increasing dependence and usage of online social media networks and tools for schooling, productivity, and especially connecting, the idea of personal websites is growing more relevant by the day. Personal websites are a genre of media studies that have a variety of purposes, such as displaying one’s work for anyone to see and centralizing all relevant pieces of information of a person. These have existed for a while, but have evolved significantly partly due to the changing structure and usage of the world wide web. In addition, they now serve as an ever-growing essential part of one’s digital identity and personal branding. This idea revolves around the need of having a well-organized mechanism for showing who you are in order to not only get more future opportunities, but make important connections with other people for prosperity. Personal websites have formally institutionalized the art of digital personal identity. 
               </Typography>
+              <br></br>
+                            <Typography variant="h9" component="h4" color="blue" gutterBottom>
+
+One specific area where personal websites are concretely affecting a community is college students and recently graduated college students at the forefront of entering the workforce. A more competitive job market means the opportunity cost of not having a personal website is slowly becoming necessarily high. Modern job applications have normalized an input text field asking for a personal website link. While this field might not be a requirement as of yet, this webpage will point out that de facto, it might as well be. 
+              </Typography>
+                            <br></br>
+
+<Typography variant="h9" component="h4" color="blue" gutterBottom>
+This webpage will argue that the genre of personal websites is here to stay as the widespread usage of the world wide web will make this genre a norm for gaining future connections and opportunities in addition to building a robust online digital identity. There will be information included on the evolution of personal websites in addition to a dissection of the interface/content of many personal websites. This website will also look closer at a case study of college students and recently graduated college students utilizing personal websites in order to enter the workforce successfully.
+</Typography>
 
             </CardContent>
 
       <center>
-            <Link href={{ pathname: '/Phenomenological'}}>
-                    <Button variant="contained" color="primary">Phenomenological</Button>
+            <Link href={{ pathname: '/Evolution'}}>
+                    <Button variant="contained" color="primary">Evolution of Personal Websites</Button>
             </Link>
           <p></p>
-            <Link href={{ pathname: '/PublicRecord'}}>
-                    <Button variant="contained" color="primary">Public Record</Button>
+            <Link href={{ pathname: '/JobMarket'}}>
+                    <Button variant="contained" color="primary">Job Market</Button>
             </Link>
-
+            <p></p>
+            <Link href={{ pathname: '/CaseStudy'}}>
+                    <Button variant="contained" color="primary">Case Study</Button>
+            </Link>
             <p></p>
 
             <Link href={{ pathname: '/Bibliography'}}>
@@ -68,16 +79,6 @@ export default function Main() {
       </Card>
 
         <p></p>
-
-
-        <center>
-        <h1>Listen to WBUR-FM Live!</h1>
-          <audio controls autoplay>
-            <source src="https://icecast-stream.wbur.org/wbur" type="audio/mpeg"></source>
-          </audio>
-        </center>
-
-        <center><h4>The phenomenological approach to destructing the WBUR-FM Radio Station Channel along with the knowledge of the public record of the station yields a decent picture as to the wide range of programs and services offered. These two approaches come together nicely as the contextualization of the station fits will with some of the information easily accessible to anyone, thus painting a picture of the impact of this station in informing individuals and cultivating a civil discourse and information distribution. The investigation overall has revealed that the impact of the physical radio landscape of the United States is here to stay as people do like the authentic and reliable nature of old media reinvigorated in the modern day. The station also connects many localities while also being connected via a network all over the country, similar to the Internet network. Future upgrades will bring this traditionally seen as more correlated with physical location into more of a media node within a large network of other nodes, thus establishing a really valuable set of connections that will be hard to reform or eliminate.</h4></center>
 
 
       </div>
