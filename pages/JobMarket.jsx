@@ -29,6 +29,9 @@ export default function JobMarket(props) {
             <Link color="inherit" href="/Main" onClick={handleClick}>
               Main Page
             </Link>
+            <Link color="inherit" href="/Evolution" onClick={handleClick}>
+            Evolution of Personal Web Pages
+            </Link>
             <Link color="inherit" href="/JobMarket" onClick={handleClick}>
             Job Market
             </Link>
@@ -79,7 +82,23 @@ As Erin Greenawald mentions in her blog “How My Personal Website Helped Me Lan
 
                       </center>        
             <p></p>
+<br></br>
+<br></br>
 
+<br></br>
+<br></br>
+
+<center>
+<div style = {{color : "red"}}><strong>
+The importance of personal websites for this unpredictable job market can be seen here. Let's dig deeper into a case study involving how a graduating college student can build an online identiy via a personal website as opposed to other conventional interfaces like LinkedIn.
+</strong>
+</div>
+
+<br></br>
+            <Link href={{ pathname: '/CaseStudy'}}>
+                    <Button variant="contained" color="primary">Case Study</Button>
+            </Link>
+</center>
 
         </div>
       )
