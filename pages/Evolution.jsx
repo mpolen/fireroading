@@ -69,6 +69,22 @@ There was a dramatic rise in interactiveness of personal websites as the idea of
 </p>
        </center>
 
+<br></br>
+<br></br>
+
+<br></br>
+<br></br>
+
+<center>
+<div style = {{color : "red"}}><strong>
+Given the trajectory of personal websites, we can envision the accelrating influence of personal websites in building a digital brand that can be advertised to future employers and connections for acquiring opportunities. We now take a closer look at the competitive job market and how it influences the relevance of personal websites. </strong>
+</div>
+
+<br></br>
+            <Link href={{ pathname: '/JobMarket'}}>
+                    <Button variant="contained" color="primary">Job Market</Button>
+            </Link>
+</center>
         </div>
       )
   }

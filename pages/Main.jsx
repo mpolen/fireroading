@@ -52,6 +52,14 @@ One specific area where personal websites are concretely affecting a community i
 This webpage will argue that the genre of personal websites is here to stay as the widespread usage of the world wide web will make this genre a norm for gaining future connections and opportunities in addition to building a robust online digital identity. There will be information included on the evolution of personal websites in addition to a dissection of the interface/content of many personal websites. This website will also look closer at a case study of college students and recently graduated college students utilizing personal websites in order to enter the workforce successfully.
 </Typography>
 
+<br></br>
+<br></br>
+<center>
+<div style = {{color : "red"}}><strong>
+We first look at the evolution of personal websites from the 1990s onwards as the changes in personal websites dictate changes in digital identity.
+</strong>
+</div>
+</center>
             </CardContent>
 
       <center>
@@ -59,7 +67,7 @@ This webpage will argue that the genre of personal websites is here to stay as t
                     <Button variant="contained" color="primary">Evolution of Personal Websites</Button>
             </Link>
           <p></p>
-            <Link href={{ pathname: '/JobMarket'}}>
+            {/* <Link href={{ pathname: '/JobMarket'}}>
                     <Button variant="contained" color="primary">Job Market</Button>
             </Link>
             <p></p>
@@ -70,7 +78,7 @@ This webpage will argue that the genre of personal websites is here to stay as t
 
             <Link href={{ pathname: '/Bibliography'}}>
                     <Button variant="contained" color="primary">Bibliography</Button>
-            </Link>
+            </Link> */}
     <p></p>
      </center>
 
