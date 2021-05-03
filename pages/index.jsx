@@ -19,7 +19,7 @@ export default function App() {
     <div>
 
       <Head>
-        <title> Media Phenomenon</title>
+        <title>Media Phenomenon</title>
       </Head>
 
       <main>
@@ -31,7 +31,7 @@ export default function App() {
 
           avatar={
             <Avatar className = {styles.cardLight} aria-label="">
-              MI
+              MP
             </Avatar>
           } 
 
@@ -39,23 +39,23 @@ export default function App() {
             <IconButton aria-label="Media Infrastructure">
             </IconButton>
           }
-          title="Media Infrastructure"
+          title="Media Phenomenon"
           subheader="2021"
         ></CardHeader>
 
           <CardContent>
 
             <Typography className = {styles.cardLarge} variant="h1" component="h2" color="blue" gutterBottom>
-                <center>Media Infrastructure: WBUR-FM</center>        
+                <center>Media Phenomenon: Personal Websites</center>        
             </Typography>
 
             <Typography className = {styles.cardMain} variant="h4" component="h2" color="blue" gutterBottom>
-                <center>This is a simple interface for finding observations and content on the media infrastracture of WBUR-FM Radio Station!</center>        
+                <center>Personal websites have been revolutionizing the way that individuals seek to maintain a digital identity, especially for economic purposes.</center>        
             </Typography>
 
           </CardContent>
 
-          <center><img width="500" height="300" src = "https://d279m997dpfwgl.cloudfront.net/wp/2018/09/linderpix-1197-1000x666.jpg"></img></center>
+          <center><img width="500" height="300" src = "https://cdn.dribbble.com/users/1411165/screenshots/9396004/media/e63670638e6b16643dfd9731e55348d6.png"></img></center>
         <CardActions style={{justifyContent: 'center'}}>
 
           <Link href={{ pathname: '/Main'}}>
