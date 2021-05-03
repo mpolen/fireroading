@@ -677,7 +677,6 @@ export default function CaseStudy(props) {
 <br></br>
 <center>
 <iframe width="600" height="400" src="https://kennethfriedman.org/"></iframe>
-<iframe width="600" height="400" src="https://www.drizzlerock.com/"></iframe>
 <iframe width="600" height="400" src="https://www.willlangford.me/"></iframe>
 </center>
 
