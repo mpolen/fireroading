@@ -3,71 +3,75 @@ import Link from 'next/link';
 import React, { useState, useEffect } from "react";
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import axios from "axios";
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
-import Avatar from '@material-ui/core/Avatar';
 import CardHeader from '@material-ui/core/CardHeader';
-import IconButton from '@material-ui/core/IconButton';
 import styles from './app.module.css';
+import Breadcrumbs from '@material-ui/core/Breadcrumbs';
+
 
 export default function App() {
 
-  return (
-    
-    <div className = {styles.body}>
+  const handleClick = (e) => {
+    e.preventDefault();
+    return;
+ }
 
+  return (
+
+    <div >
       <Head>
-        <title>Media Phenomenon</title>
+        <title>FireRoad053</title>
       </Head>
 
-      <main className = {styles.body}>
+      <main>
+
+          <div>
+
+          <Card style={{
+        backgroundColor: 'rgb(224, 20, 20)'}} variant="outlined">
+
+            <CardContent>
+              <Typography className = {styles.cardLarge} variant="h1" component="h2" color="blue" gutterBottom>
+                  <center>FireRoad053</center>        
+              </Typography>
+              <center>
+              <img src = "https://fireroad.mit.edu/catalogs/fireroad_logo.png" ></img>
+              </center>
+            </CardContent>
+
+      </Card>
+
+<center>
+         <Typography variant="h3" component="h3" color="textSecondary" gutterBottom>
+                  Light your path through MIT with FireRoad053.
+              </Typography>
+              <br></br>
+                            <Typography variant="h9" component="h4" color="textSecondary" gutterBottom>
+FireRoad053 is the new best way to plan your path through MIT. Plan for both the upcoming semester and the years ahead, all in one place. You can view up-to-date course requirements and browse subjects.
+              </Typography>
+<br></br>
+            <Link href={{ pathname: '/Classes'}}>
+                    <Button variant="contained" color="textSecondary">Play around with classes information!</Button>
+            </Link>
+          <br></br>
+          <br></br>
+          <br></br>
+
+            <Link href={{ pathname: '/Input'}}>
+                    <Button variant="contained" color="textSecondary">Enter Information To Plan Your Classes!</Button>
+            </Link>
+
+
+</center>
+
+
+      </div>
         
-    <Card style={{
-        backgroundColor: 'lightgrey',
-      }} variant="outlined">
-
-          <CardHeader 
-
-          avatar={
-            <Avatar aria-label="">
-              MP
-            </Avatar>
-          } 
-
-          action={
-            <IconButton aria-label="Media Infrastructure">
-            </IconButton>
-          }
-          title="Media Phenomenon"
-          subheader="2021"
-        ></CardHeader>
-
-          <CardContent>
-
-            <Typography className = {styles.cardLarge} variant="h1" component="h2" color="blue" gutterBottom>
-                <center>Media Phenomenon: Personal Websites</center>        
-            </Typography>
-
-            <Typography className = {styles.cardMain} variant="h4" component="h2" color="blue" gutterBottom>
-                <center>Personal websites have been revolutionizing the way that individuals seek to maintain a digital identity, especially for economic purposes.</center>        
-            </Typography>
-
-          </CardContent>
-
-          <center><img width="500" height="300" src = "https://cdn.dribbble.com/users/1411165/screenshots/9396004/media/e63670638e6b16643dfd9731e55348d6.png"></img></center>
-        <CardActions style={{justifyContent: 'center'}}>
-
-          <Link href={{ pathname: '/Main'}}>
-            <Button variant="contained" color="primary">Click To Get Started</Button>
-          </Link>
-
-      </CardActions>
-
-    </Card>
-
-   </main>
+      </main>
 
     </div>
   )
