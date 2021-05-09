@@ -47,7 +47,7 @@ export default function App() {
 
 <center>
          <Typography variant="h3" component="h3" color="textSecondary" gutterBottom>
-                  Light your path through MIT with FireRoad053.
+                  You can light your path through MIT with other course scheduling services. But only FireRoad053 can reasonable <div style={{color:"blue"}}><i><strong>OPTIMIZE</strong></i></div> your journey through this mystical land.
               </Typography>
               <br></br>
                             <Typography variant="h9" component="h4" color="textSecondary" gutterBottom>
