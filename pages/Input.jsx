@@ -29,10 +29,35 @@ import Grid from '@material-ui/core/Grid';
 import Slider from '@material-ui/core/Slider';
 import VolumeUp from '@material-ui/icons/VolumeUp';
 import Input from '@material-ui/core/Input';
+import FlatButton from '@material-ui/core/Input';
+import Dialog from '@material-ui/core/Dialog';
+
 
 export default function userInput() {
 
 const [value, setValue] = useState()
+const [rating,setRating] = useState()
+const [open,setOpen] = useState(false)
+const [dialogOpen,setDialogOpen] = useState(false)
+
+    // const actions = [
+    //   <FlatButton
+    //     type="reset"
+    //     label="Reset"
+    //     secondary={true}
+    //     style={{ float: 'left' }}
+    //     />,
+    //   <FlatButton
+    //     label="Cancel"
+    //     primary={true}
+    //     onClick={this.handleClose}
+    //     />,
+    //   <FlatButton
+    //     type="submit"
+    //     label="Submit"
+    //     primary={true}
+    //     />,
+    // ];
 
   const handleClick = (e) => {
     e.preventDefault();
@@ -55,7 +80,15 @@ const handleInputChange = (event) => {
     }
   };
 
+  const handleBlurRating = () => {
+    if (value < 0) {
+      setRating(0);
+    } else if (value > 100) {
+      setRating(100);
+    }
+  };
   return (
+
 
     <div >
       <Head>
@@ -86,7 +119,7 @@ const handleInputChange = (event) => {
 
       </Card>
 
-<center>
+
 
         <br></br>
         <br></br>
@@ -94,7 +127,7 @@ const handleInputChange = (event) => {
                   <center>Enter information below in order to input into FireRoad053 for optimized schedule!</center>        
               </Typography>
               <br></br>
-
+          <center>
         <TextField
           required
           id="name"
@@ -102,13 +135,18 @@ const handleInputChange = (event) => {
           placeholder="e.g. Hesham"
           variant="outlined"
         />
+        </center>
       <br></br>
 
       <br></br>
       <br></br>
-      <Typography id="input-slider" gutterBottom>
-        Weight for Utility
+      <center>
+      <Typography variant = "h5" component = "h1" id="input-slider" gutterBottom>
+        Weight for Course Hour (Utility Function)
       </Typography>
+      <h9>Choose a value between 0 and 100</h9>
+
+</center>
 
       <Grid container spacing={2} alignItems="center">
     <Grid item xs = {12}>
@@ -119,6 +157,7 @@ const handleInputChange = (event) => {
           />
     </Grid>
     <Grid item xs>
+          <center>
           <Input
             value={value}
             margin="dense"
@@ -133,12 +172,67 @@ const handleInputChange = (event) => {
               'aria-labelledby': 'input-slider',
             }}
           />
+          </center>
         </Grid>
+
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+
+
+      <Grid container spacing={2} alignItems="center">
+            {/* <Typography id="input-slider" gutterBottom>
+        Weight for Course Ratings 
+      </Typography> */}
+    <Grid item xs = {12}>
+          <center>
+                <br></br>
+
+      <br></br>
+      <br></br>
+      <Typography variant = "h5" component = "h1" id="input-slider" gutterBottom>
+        Weight for Course Rating (Utility Function)
+      </Typography>
+      <h9>Choose a value between 0 and 100</h9>
+    </center>
+      <Slider
+            value={typeof rating === 'number' ? rating : 0}
+            onChange={(event,newValue) => setRating(newValue)}
+            aria-labelledby="input-slider"
+          />
+    </Grid>
+    <Grid item xs>
+              <center>
+          <Input
+            value={rating}
+            margin="dense"
+            variant = "outlined"
+            onChange={() => setRating(event.target.value === '' ? '' : Number(event.target.value))}
+            onBlur={handleBlurRating}
+            inputProps={{
+              step: 10,
+              min: 0,
+              max: 100,
+              type: 'number',
+              'aria-labelledby': 'input-slider',
+            }}
+          />
+              </center>
+        </Grid>
+        </Grid>
+
+        
       </Grid> 
 
+      <br></br>
+      <br></br>
+      <br></br>
 
-</center>
 
+      <center>
+      <Button variant = "outlined" onClick={() => { alert('Submitted!') }}>Submit</Button>
+      </center>
 
       </div>
         
